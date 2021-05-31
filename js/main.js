@@ -17,13 +17,9 @@ window.onload = function hHeader(){
         trees.style.bottom = y/50 + '%';
         title.style.bottom = 62 - (y/150) + '%';
 
-        if(100 - (y/20) >= 0){
-            layer.style.top = 100 - (y/20) + '%';
-        }
+        if(100 - (y/20) >= 0){layer.style.top = 100 - (y/20) + '%';}
 
-        if(100 - (y/20) < 0){
-            layer.style.top = '0%';
-        }
+        if(100 - (y/20) < 0){layer.style.top = '0%';}
     } 
 }
 
@@ -35,7 +31,6 @@ window.onresize = function(){
     sky.style.bottom = '0';
     title.style.bottom = '62%';
     layer.style.bottom = '100%';
-
 }
 
 
